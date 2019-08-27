@@ -1,10 +1,169 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Edited by | @RandomRamen
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <body>
-        <p>
-            This is some text
-        </p>
-        <br>
-        <a href="anotherpage.html">Go to another page</a>
-    </body>
+
+<head>
+	<title>My Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper-->
+	<div id="wrapper">
+
+		<!-- Nav -->
+		<nav id="nav">
+			<a href="#" class="icon solid fa-home"><span>Home</span></a>
+			<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+			<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+			<a href="https://github.com/peterztan" class="icon brands fa-github" target="_blank"><span>GitHub</span></a>
+			<a href="https://www.linkedin.com/in/peter-tan-670586125"
+				class="icon brands fa-linkedin" target="_blank"><span>LinkedIn</span></a>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Me -->
+			<article id="home" class="panel intro">
+				<header>
+					<h1>Peter Z. Tan</h1>
+					<p>Budding Full Stack Web Developer</p>
+				</header>
+				<a href="#work" class="jumplink pic">
+					<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+					<img src="images/profile.jpg" alt="" />
+				</a>
+			</article>
+
+			<!-- Work -->
+			<article id="work" class="panel">
+				<header>
+					<h2>Work</h2>
+				</header>
+				<p>
+					Hello, my name is Peter Tan.
+					I am currently a Healthcare IT Specialist working at a pain clinic.
+					As a technology enthusiast, I have always enjoyed working with technology,
+					which has inspired me to make the switch into the IT field after working as
+					a Forensic Scientist for two and a half years.
+					</br></br>
+					My dream is to contribute in making Full Dive Virtual Reality an applicable commercial
+					product instead of a laboratory dream project, help scaling it into something that the everyday
+					consumer can utilize to enrich their lives, enable the disabled and expand the imagination of people
+					everywhere. Additionally, I want to help take Augmented Reality to a new height, in order to
+					increase everyday productivity and work efficiency by providing innovative, interactive and
+					intuitive AR tools.
+					</br></br>
+					Click on the images below to see some of my projects:
+				</p>
+				<section>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="https://peterztan.github.io/Word-Guess-Game/" class="image fit" target="_blank"><img
+									src="images/Hangman.png" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="https://peterztan.github.io/unit-4-game/" class="image fit" target="_blank"><img
+									src="images/crystals.jpg" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="https://peterztan.github.io/TriviaGame/" class="image fit" target="_blank"><img
+									src="images/triviagame.jpg" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="https://peterztan.github.io/GifTastic/" class="image fit" target="_blank"><img src="images/gif.gif"
+									alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="https://peterztan.github.io/Project-1/" class="image fit" target="_blank"><img
+									src="images/Appe-logo.png" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="https://github.com/peterztan/liri-node-app.git" class="image fit" target="_blank"><img
+									src="images/LIRI.jpg" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#" class="image fit"><img src="#" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#" class="image fit"><img src="#" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#" class="image fit"><img src="#" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#" class="image fit"><img src="#" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#" class="image fit"><img src="#" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#" class="image fit"><img src="#" alt=""></a>
+						</div>
+					</div>
+				</section>
+			</article>
+
+			<!-- Contact -->
+			<article id="contact" class="panel">
+				<header>
+					<h2>Contact Me</h2>
+				</header>
+				<form id="ajax-contact" action="assets/php/mailer.php" method="post">
+					<div>
+						<div class="row">
+							<div class="col-6 col-12-medium">
+								<input type="text" id="name" name="name" placeholder="Name" />
+							</div>
+							<div class="col-6 col-12-medium">
+								<input type="text" id="e-mail" name="email" placeholder="Email" />
+							</div>
+							<div class="col-12">
+								<input type="text" id="subject" name="subject" placeholder="Subject" />
+							</div>
+							<div class="col-12">
+								<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
+							</div>
+							<div id="form-messages" class="col-12"></div>
+							<div class="col-12">
+								<input type="submit" value="Send Message" />
+							</div>
+						</div>
+					</div>
+				</form>
+			</article>
+
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+			<ul class="copyright">
+				<li>&copy; Peter Z. Tan </li>
+				<li>Design: Templated from <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/contact.js"></script>
+
+</body>
+
 </html>
