@@ -11,8 +11,12 @@
 	<title>My Portfolio</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
@@ -25,6 +29,7 @@
 		<!-- Nav -->
 		<nav id="nav">
 			<a href="#" class="icon solid fa-home"><span>Home</span></a>
+			<a href="#about" class="icon solid fa-info-circle"><span>About Me</span></a>
 			<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
 			<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
 			<a href="https://github.com/peterztan" class="icon brands fa-github" target="_blank"><span>GitHub</span></a>
@@ -41,16 +46,16 @@
 					<h1>Peter Z. Tan</h1>
 					<p>Budding Full Stack Web Developer</p>
 				</header>
-				<a href="#work" class="jumplink pic">
+				<a href="#about" class="jumplink pic">
 					<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
 					<img src="images/profile.jpg" alt="" />
 				</a>
 			</article>
 
-			<!-- Work -->
-			<article id="work" class="panel">
+			<!-- About Me -->
+			<article id="about" class="panel">
 				<header>
-					<h2>Work</h2>
+					<h1>About Me</h1>
 				</header>
 				<p>
 					Hello, my name is Peter Tan.
@@ -66,37 +71,170 @@
 					increase everyday productivity and work efficiency by providing innovative, interactive and
 					intuitive AR tools.
 					</br></br>
-					Click on the images below to see some of my projects:
+				</p>
+			</article>
+
+			<!-- Work -->
+			<article id="work" class="panel">
+				<header>
+					<h1>Work</h1>
+				</header>
+				<p>
+					Click on the Project Links below to see some of my projects:
 				</p>
 				<section>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="https://peterztan.github.io/Word-Guess-Game/" class="image fit"
-								target="_blank"><img src="images/Hangman.png" alt=""></a>
+							<div class="card darken-1 hoverable">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="images/Hangman.png">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Hangman<i
+											class="material-icons right">more_vert</i></span>
+									<p><a href="https://peterztan.github.io/Word-Guess-Game/"
+											class="waves-effect waves-light btn link-button" target="_blank"><i
+												class="material-icons left">insert_link</i>Project
+											Link</a></p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Word Guess Game<i
+											class="material-icons right">close</i></span>
+									<p>A Lo-Fi themed Word Guess Game that incorporates dynamic hangman generation. Beat
+										the game by guessing the correct word. Game Over once Hangman is completed.</p>
+								</div>
+							</div>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="https://peterztan.github.io/unit-4-game/" class="image fit" target="_blank"><img
-									src="images/crystals.jpg" alt=""></a>
+							<div class="card darken-1 hoverable">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="images/crystals.jpg">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Crystals<i
+											class="material-icons right">more_vert</i></span>
+									<p><a href="https://peterztan.github.io/unit-4-game/"
+											class="waves-effect waves-light btn link-button" target="_blank"><i
+												class="material-icons left">insert_link</i>Project
+											Link</a></p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Crystals Collectors Game<i
+											class="material-icons right">close</i></span>
+									<p>A crystals collector game featuring score-keeping, beat the game by collecting
+										enough crystals to sum up the points to be equal to the value assigned.</p>
+								</div>
+							</div>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="https://peterztan.github.io/TriviaGame/" class="image fit" target="_blank"><img
-									src="images/triviagame.jpg" alt=""></a>
+							<div class="card darken-1 hoverable">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="images/triviagame.jpg">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">HP Trivia<i
+											class="material-icons right">more_vert</i></span>
+									<p><a href="https://peterztan.github.io/TriviaGame/"
+											class="waves-effect waves-light btn link-button" target="_blank"><i
+												class="material-icons left">insert_link</i>Project
+											Link</a></p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Trivia Game<i
+											class="material-icons right">close</i></span>
+									<p>A Harry Potter themed trivia game featuring dynamic and random question
+										generation. Questions will be served at random, amount of correct and incorrect
+										questions will be shown at the end.</p>
+								</div>
+							</div>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="https://peterztan.github.io/GifTastic/" class="image fit" target="_blank"><img
-									src="images/gif.gif" alt=""></a>
+							<div class="card darken-1 hoverable">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="images/gif.gif">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Card Title<i
+											class="material-icons right">more_vert</i></span>
+									<p><a href="https://peterztan.github.io/GifTastic/"
+											class="waves-effect waves-light btn link-button" target="_blank"><i
+												class="material-icons left">insert_link</i>Project
+											Link</a></p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Card Title<i
+											class="material-icons right">close</i></span>
+									<p>Here is some more information about this product that is only revealed once
+										clicked
+										on.</p>
+								</div>
+							</div>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="https://peterztan.github.io/Project-1/" class="image fit" target="_blank"><img
-									src="images/Appe-logo.png" alt=""></a>
+							<div class="card darken-1 hoverable">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="images/Appe-logo.png">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Card Title<i
+											class="material-icons right">more_vert</i></span>
+									<p><a href="https://peterztan.github.io/Project-1/"
+											class="waves-effect waves-light btn link-button" target="_blank"><i
+												class="material-icons left">insert_link</i>Project
+											Link</a></p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Card Title<i
+											class="material-icons right">close</i></span>
+									<p>Here is some more information about this product that is only revealed once
+										clicked
+										on.</p>
+								</div>
+							</div>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="https://github.com/peterztan/liri-node-app.git" class="image fit"
-								target="_blank"><img src="images/LIRI.jpg" alt=""></a>
+							<div class="card darken-1 hoverable">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="images/LIRI.jpg">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Card Title<i
+											class="material-icons right">more_vert</i></span>
+									<p><a href="https://github.com/peterztan/liri-node-app.git"
+											class="waves-effect waves-light btn link-button" target="_blank"><i
+												class="material-icons left">insert_link</i>Project
+											Link</a></p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Card Title<i
+											class="material-icons right">close</i></span>
+									<p>Here is some more information about this product that is only revealed once
+										clicked
+										on.</p>
+								</div>
+							</div>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="https://github.com/peterztan/bamazon.git" class="image fit" target="_blank"><img
-									src="./images/bamazon.jpg" alt=""></a>
+							<div class="card darken-1 hoverable">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="images/bamazon.jpg">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Card Title<i
+											class="material-icons right">more_vert</i></span>
+									<p><a href="https://github.com/peterztan/bamazon.git"
+											class="waves-effect waves-light btn link-button" target="_blank"><i
+												class="material-icons left">insert_link</i>Project
+											Link</a></p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Card Title<i
+											class="material-icons right">close</i></span>
+									<p>Here is some more information about this product that is only revealed once
+										clicked
+										on.</p>
+								</div>
+							</div>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<a href="#" class="image fit"><img src="#" alt=""></a>
@@ -119,10 +257,12 @@
 
 			<!-- Contact -->
 			<article id="contact" class="panel">
-				<header>
-					<h2 style="display:inline;">Contact Me at </h2>
-					<ul class="col-6 col-12-medium" style="display:inline; list-style: none;">
-						<li style="display:inline;" class="icon solid fa-envelope-open-text"><span> pt072093@gmail.com</span></li>
+				<header style="text-align: center;">
+					<h1>Contact Me</h1>
+					<hr style="border-top: 1px solid black;">
+					<ul class="col-6 col-12-medium" style="list-style: none;">
+						<li style="display:inline;" class="icon solid fa-envelope-open-text"><span>
+								pt072093@gmail.com</span></li>
 						<li style="display:inline;" class="icon solid fa-phone-square"><span> (913) 548-6527</span></li>
 					</ul>
 					<h5>~ or leave a message by filling out the form below ~</h5>
@@ -130,17 +270,26 @@
 				<form id="ajax-contact" action="./assets/php/mailer.php" method="post">
 					<div>
 						<div class="row">
-							<div class="col-6 col-12-medium">
-								<input type="text" id="name" name="name" placeholder="Name" />
+							<div class="input-field col l6 m12 s12">
+								<i class="material-icons prefix">person_pin</i>
+								<input type="text" id="name" name="name" />
+								<label for="name">Name</label>
 							</div>
-							<div class="col-6 col-12-medium">
-								<input type="text" id="e-mail" name="email" placeholder="Email" />
+							<div class="input-field col l6 m12 s12">
+								<i class="material-icons prefix">email</i>
+								<input type="text" id="e-mail" name="email" />
+								<label for="e-mail">E-mail</label>
 							</div>
-							<div class="col-12">
-								<input type="text" id="subject" name="subject" placeholder="Subject" />
+							<div class="input-field col s12">
+								<i class="material-icons prefix">subject</i>
+								<input type="text" id="subject" name="subject" />
+								<label for="subject">Subject</label>
 							</div>
-							<div class="col-12">
-								<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
+							<div class="input-field col s12">
+								<i class="material-icons prefix">mode_edit</i>
+
+								<textarea id="message" class="materialize-textarea" rows="6"></textarea>
+								<label for="message">Message</label>
 							</div>
 							<div id="form-messages" class="col-12"></div>
 							<div class="col-12">
@@ -170,6 +319,7 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/contact.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </body>
 
