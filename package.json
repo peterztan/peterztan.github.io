@@ -1,0 +1,28 @@
+{
+  "name": "peterztan.github.io",
+  "version": "1.0.0",
+  "description": "A personal portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterztan/peterztan.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "peter",
+    "tan",
+    "peterztan"
+  ],
+  "author": "Peter Z. Tan",
+  "license": "CC-BY-3.0",
+  "bugs": {
+    "url": "https://github.com/peterztan/peterztan.github.io/issues"
+  },
+  "homepage": "https://github.com/peterztan/peterztan.github.io#readme",
+  "dependencies": {
+    "nodemailer": "^6.4.14"
+  }
+}
