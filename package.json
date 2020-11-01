@@ -4,7 +4,8 @@
   "description": "A personal portfolio website",
   "main": "index.js",
   "scripts": {
-    "test": "test-portfolio"
+    "test": "test-portfolio",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
