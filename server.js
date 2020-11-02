@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Server has started!");
+    res.send("root");
 })
 
 const PORT = process.env.PORT || 80;
