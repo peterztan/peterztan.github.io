@@ -61,9 +61,12 @@
 					Hello, my name is Peter Tan.
 					I am a former junior Software Developer from <a href="https://www.oberd.com"
 						target="_blank">Oberd</a>.
-					As a technology enthusiast, I have always enjoyed working with technology,
-					which has inspired me to make the switch into the IT field after working as
-					a Forensic Scientist for two and a half years.
+					<br><br>
+					In December 2015, I graduated with a Bachelor's of Science degree in Biology with a concentration in Genetics.
+					With an aim for medical school, I got a job as a Forensic Scientist at Quest Diagnostics in an attempt to bolster
+					my resume and get some real lab experience. After working there for two years and a half, I began a journey of self-rediscovery,
+					during which I realized my true passion has always been with technology. So I signed up for a coding bootcamp and switched to the field
+					of Computer Software.
 					</br></br>
 					My dream is to contribute in making Full Dive Virtual Reality an applicable commercial
 					product instead of a laboratory dream project, help scaling it into something that the everyday
@@ -280,7 +283,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
+						<!-- Deprecated Project -->
+						<!-- <div class="col-4 col-6-medium col-12-small">
 							<div class="card darken-1 hoverable">
 								<div class="card-image waves-effect waves-block waves-light image fit">
 									<img class="activator" src="assets/images/FireLogo.png">
@@ -300,7 +304,7 @@
 										navigation infrastructure which changes based on user sign in status.</p>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<div class="col-4 col-6-medium col-12-small">
 							<a href="#" class="image fit"><img src="#" alt=""></a>
 						</div>
@@ -313,44 +317,43 @@
 
 			<!-- Contact -->
 			<article id="contact" class="panel">
-				<header style="text-align: center;">
+				<header>
 					<h1>Contact Me</h1>
-					<hr style="border-top: 1px solid black;">
-					<ul class="col-6 col-12-medium" style="list-style: none;">
+					<br>
+					<ul class="row" style="list-style: none; display: flex; justify-content: flex-start, space-evenly;">
 						<li style="display:inline;" class="icon solid fa-envelope-open-text"><span>
 								pt072093@gmail.com</span></li>
 						<li style="display:inline;" class="icon solid fa-phone-square"><span> (913) 735-7383</span></li>
 					</ul>
-					<h5>~ or leave a message by filling out the form below ~</h5>
 				</header>
-				<form id="ajax-contact" action="./assets/js/contact.js" method="post">
-					<div>
-						<div class="row">
-							<div class="input-field col l6 m12 s12">
-								<i class="material-icons prefix">person_pin</i>
-								<input type="text" id="name" name="name" />
-								<label for="name">Name</label>
-							</div>
-							<div class="input-field col l6 m12 s12">
-								<i class="material-icons prefix">email</i>
-								<input type="text" id="e-mail" name="email" />
-								<label for="e-mail">E-mail</label>
-							</div>
-							<div class="input-field col s12">
-								<i class="material-icons prefix">subject</i>
-								<input type="text" id="subject" name="subject" />
-								<label for="subject">Subject</label>
-							</div>
-							<div class="input-field col s12">
-								<i class="material-icons prefix">mode_edit</i>
+				<p>or leave a message by filling out the form below</p>
+				<br>
+				<form id="contact-form" action="https://formspree.io/f/meqpvgkk" method="POST">
+					<div class="row">
+						<div class="input-field col l6 m12 s12">
+							<i class="material-icons prefix">person_pin</i>
+							<input type="text" id="name" name="name" />
+							<label for="name">Name</label>
+						</div>
+						<div class="input-field col l6 m12 s12">
+							<i class="material-icons prefix">email</i>
+							<input type="text" id="e-mail" name="_replyto" />
+							<label for="e-mail">E-mail</label>
+						</div>
+						<div class="input-field col s12">
+							<i class="material-icons prefix">subject</i>
+							<input type="text" id="subject" name="subject" />
+							<label for="subject">Subject</label>
+						</div>
+						<div class="input-field col s12">
+							<i class="material-icons prefix">mode_edit</i>
 
-								<textarea id="message" class="materialize-textarea" rows="6"></textarea>
-								<label for="message">Message</label>
-							</div>
-							<div id="form-messages" class="col-12"></div>
-							<div class="col-12">
-								<input type="submit" value="Send Message" />
-							</div>
+							<textarea id="message" class="materialize-textarea" rows="6" name="message"></textarea>
+							<label for="message">Message</label>
+						</div>
+						<div id="form-messages" class="col-12"></div>
+						<div class="col-12">
+							<input type="submit" value="Send" target="_blank"/>
 						</div>
 					</div>
 				</form>
@@ -363,7 +366,7 @@
 			<ul class="copyright">
 				<li>&copy; 2021 by Peter Z. Tan. All rights reserved. </li>
 				<li>Design: base template from <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
-				<li>Photo: background from <a href="https://www.lyncconf.com" target="_blank">Lyncconf Games</a></li>
+				<li><span>Photo by <a href="https://unsplash.com/@kilarov345?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">kilarov zaneit</a> on <a href="https://unsplash.com/s/photos/black-and-red?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></li>
 			</ul>
 		</div>
 
@@ -376,7 +379,6 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script src="assets/js/contact.js"></script>
 
 </body>
 
